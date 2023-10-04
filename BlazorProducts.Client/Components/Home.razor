@@ -3,10 +3,7 @@
         @Title
     </h1>
     <p>
-        Feel free to
-        <a href="_" target="_blank">visit
-            our shop</a>
-        any time you want.
+        @VisitShopContent
     </p>
     <p>
         <img src="/assets/products.png" alt="products image for the Home component" class="img-fluid" />
@@ -27,5 +24,5 @@
     public string Color { get; set; } = string.Empty;
 
     [Parameter]
-    public RenderFragment ChildContent { get; set; }
+    public RenderFragment VisitShopContent { get; set; }
 }
